@@ -21,9 +21,9 @@ pip install -r requirements.txt
   - [CLAM](https://github.com/mahmoodlab/CLAM)--Lu, M.Y., Williamson, D.F.K., Chen, T.Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat Biomed Eng 5, 555–570 (2021).
 
 - **Prototype Extraction**
-```bash
-python train.py
-```
+  ```bash
+  python train.py
+  ```
 
 ## Online stage
 - **Construction of Phenotype Graph and Prototype Graph**
