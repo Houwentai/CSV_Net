@@ -27,15 +27,21 @@ pip install -r requirements.txt
 
 ## Online stage
 - **Construction of Phenotype Graph and Prototype Graph**
+  - Please refer to **PP_graph_generation.ipynb**
 
+- **Training of CSV-NET**
+  Using the following command-line for model training:
+  ```bash
+  cd train
+  python train.py
+  ```
 
-
-First, setting the data splits and hyperparameters in the file ***train.py***. Then, experiments can be run using the following command-line:
-```bash
-cd train
-python train.py
-```
-The trained model will be saved in the folder ***Saved_model***. 
+- **Validation of CSV-NET**
+  Using the following command-line for model inference and result statistics:
+  ```bash
+  cd inference
+  python inference.py
+  ```
 
 ## Saved model
 We provide our trained CSV_Net model, which performing as:
@@ -43,13 +49,6 @@ We provide our trained CSV_Net model, which performing as:
 | ----- |:--------:|
 | Internel validation set | 0.845 |
 | Externel validation set | 0.815 |
-
-## Inference
-Using the following command-line for model inference and result statistics:
-```bash
-cd inference
-python inference.py
-```
 
 ## Citation
 - If you found our work useful in your research, please consider citing our work at:
