@@ -1,4 +1,4 @@
-# CSV_Net
+# CSV-Net
 
 ## Interpretable Graph Learning on Preoperative Biopsy for Prediction of Pathological Complete Response to Neoadjuvant Therapy in Breast Cancer
 
