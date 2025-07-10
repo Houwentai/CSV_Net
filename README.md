@@ -22,29 +22,27 @@ pip install -r requirements.txt
 
 - **Prototype Extraction**
   ```bash
-  python train.py
+  python prototype.py
   ```
 
 ## Online stage
 - **Construction of Phenotype Graph and Prototype Graph**
-  - Please refer to **PP_graph_generation.ipynb**
+  - Please refer to **pp_graph_generation.ipynb**
 
 - **Training of CSV-NET**
   - Running the following command-line for model training:
   ```bash
-  cd train
   python train.py
   ```
 
 - **Validation of CSV-NET**
   - Running the following command-line for model inference and result statistics:
   ```bash
-  cd inference
-  python inference.py
+  python validation.py
   ```
 
 ## Saved model
-We provide our trained CSV_Net model, which performing as:
+We provide our trained CSV_Net model at [saved_model](https://github.com/Houwentai/CSV_Net/tree/main/saved_model), which performing as:
 | Dataset | ROC-AUC |
 | ----- |:--------:|
 | Internel validation set | 0.845 |
