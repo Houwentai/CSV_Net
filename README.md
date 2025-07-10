@@ -17,14 +17,14 @@ pip install -r requirements.txt
 ```
 
 ## Data Preprocess
-***gendata.ipynb*** shows how to transform a histological image into the hierarchical graphs. After the data processing is completed, put all hierarchical graphs into a folder. The form is as follows:
+***gendata.ipynb*** shows how to transform a WSI into the prototype graph and phenotype graph. After the data processing is completed, put all hierarchical graphs into a folder. The form is as follows:
 ```bash
 PYG_Data
    └── Dataset
-          ├── pyg_data_1.pkl
-          ├── pyg_data_2.pkl
+          ├── patient_1.pkl
+          ├── patient_2.pkl
                     :
-          └── pyg_data_n.pkl
+          └── patient_n.pkl
 ```
 
 ## Training
