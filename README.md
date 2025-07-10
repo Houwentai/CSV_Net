@@ -21,10 +21,10 @@ pip install -r requirements.txt
 ```bash
 Graph_Data
    └── Dataset
-          ├── patient_1.pkl
-          ├── patient_2.pkl
+          ├── patient_1.pt
+          ├── patient_2.pt
                     :
-          └── patient_n.pkl
+          └── patient_n.pt
 ```
 
 ## Training
