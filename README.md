@@ -33,9 +33,9 @@ First, setting the data splits and hyperparameters in the file ***train.py***. T
 cd train
 python train.py
 ```
-The trained model will be saved in the folder ***SavedModels***. 
+The trained model will be saved in the folder ***Saved_model***. 
 
-## Saved models
+## Saved model
 We provide our trained CSV_Net model, which performing as:
 | Dataset | ROC-AUC |
 | ----- |:--------:|
