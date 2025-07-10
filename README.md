@@ -23,13 +23,16 @@ pip install -r requirements.txt
 - **Prototype Extraction**
   - Running the following command-line for prototype extraction:
   ```bash
-  python prototype.py
+  python prototype_extraction.py
   ```
 
 ## Online stage
 - **Construction of Phenotype Graph and Prototype Graph**
-  - Please refer to **pp_graph_generation.ipynb**
-
+  - Running the following command-line for the construction of phenotype graph and prototype graph:
+  ```bash
+  python pp_graph_construction.py
+  ```
+  
 - **Training of CSV-NET**
   - Running the following command-line for model training:
   ```bash
