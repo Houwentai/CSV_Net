@@ -17,21 +17,19 @@ pip install -r requirements.txt
 ```
 
 ## Offline stage
-- For the WSI preprocessing, please refer to the following publicly available codes.
+- **WSI preprocessing and Feature Embedding** 
   - [CLAM](https://github.com/mahmoodlab/CLAM)--Lu, M.Y., Williamson, D.F.K., Chen, T.Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat Biomed Eng 5, 555–570 (2021).
 
-
-- **gendata.ipynb** shows how to transform a WSI into the prototype graph and phenotype graph. After the data processing is completed, put all hierarchical graphs into a folder. The form is as follows:
+- **Prototype Extraction**
 ```bash
-Graph_Data
-   └── Dataset
-          ├── patient_1.pt
-          ├── patient_2.pt
-                    :
-          └── patient_n.pt
+python train.py
 ```
 
 ## Online stage
+- **Construction of Phenotype Graph and Prototype Graph**
+
+
+
 First, setting the data splits and hyperparameters in the file ***train.py***. Then, experiments can be run using the following command-line:
 ```bash
 cd train
