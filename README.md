@@ -2,7 +2,7 @@
 
 ## Interpretable Graph Learning on Preoperative Biopsy for Prediction of Pathological Complete Response to Neoadjuvant Therapy in Breast Cancer
 
-<div align=left><img width="70%" src="Overall.png"/></div>
+<div align=left><img width="90%" src="Overall.png"/></div>
 
 ## Installation
 Clone the repo:
