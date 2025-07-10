@@ -36,7 +36,7 @@ pip install -r requirements.txt
 - **Training of CSV-NET**
   - Running the following command-line for model training:
   ```bash
-  python train.py
+  python training.py
   ```
 
 - **Validation of CSV-NET**
@@ -46,7 +46,7 @@ pip install -r requirements.txt
   ```
 
 ## Saved model
-We provide our trained CSV_Net model at [saved_model](https://github.com/Houwentai/CSV_Net/tree/main/saved_model), which performing as:
+Our trained CSV_Net model is avaliable at [saved_model](https://github.com/Houwentai/CSV_Net/tree/main/saved_model), which performing as:
 | Dataset | ROC-AUC |
 | ----- |:--------:|
 | Internel validation set | 0.845 |
