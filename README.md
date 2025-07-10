@@ -16,8 +16,12 @@ conda activate env
 pip install -r requirements.txt
 ```
 
-## Data Preprocess
-***gendata.ipynb*** shows how to transform a WSI into the prototype graph and phenotype graph. After the data processing is completed, put all hierarchical graphs into a folder. The form is as follows:
+## Offline stage
+- For the WSI preprocessing and prototype extraction, please refer to the following publicly available codes.
+  - [CLAM](https://github.com/mahmoodlab/CLAM)--Lu, M.Y., Williamson, D.F.K., Chen, T.Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat Biomed Eng 5, 555–570 (2021).
+  - [PANTHER]([https://github.com/histocartography/histocartography](https://github.com/mahmoodlab/Panther))--Jaume G, Pati P, Anklin V, et al. HistoCartography: A toolkit for graph analytics in digital pathology[C]//MICCAI Workshop on Computational Pathology. PMLR, 2021: 117-128.
+
+- **gendata.ipynb** shows how to transform a WSI into the prototype graph and phenotype graph. After the data processing is completed, put all hierarchical graphs into a folder. The form is as follows:
 ```bash
 Graph_Data
    └── Dataset
@@ -27,7 +31,7 @@ Graph_Data
           └── patient_n.pt
 ```
 
-## Training
+## Online stage
 First, setting the data splits and hyperparameters in the file ***train.py***. Then, experiments can be run using the following command-line:
 ```bash
 cd train
