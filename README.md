@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Offline stage
 - **WSI preprocessing and Feature Embedding** 
-  - [CLAM](https://github.com/mahmoodlab/CLAM)--Lu, M.Y., Williamson, D.F.K., Chen, T.Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat Biomed Eng 5, 555–570 (2021).
+  - Please refer to [CLAM](https://github.com/mahmoodlab/CLAM)--Lu, M.Y., Williamson, D.F.K., Chen, T.Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat Biomed Eng 5, 555–570 (2021).
 
 - **Prototype Extraction**
   ```bash
