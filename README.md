@@ -17,9 +17,9 @@ pip install -r requirements.txt
 ```
 
 ## Offline stage
-- For the WSI preprocessing and prototype extraction, please refer to the following publicly available codes.
+- For the WSI preprocessing, please refer to the following publicly available codes.
   - [CLAM](https://github.com/mahmoodlab/CLAM)--Lu, M.Y., Williamson, D.F.K., Chen, T.Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat Biomed Eng 5, 555–570 (2021).
-  - [PANTHER](https://github.com/mahmoodlab/Panther)--Song A H, Chen R J, Ding T, et al. Morphological prototyping for unsupervised slide representation learning in computational pathology[C]//CVPR. 2024: 11566-11578.
+
 
 - **gendata.ipynb** shows how to transform a WSI into the prototype graph and phenotype graph. After the data processing is completed, put all hierarchical graphs into a folder. The form is as follows:
 ```bash
