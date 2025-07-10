@@ -1,9 +1,8 @@
 # CSV_Net
-Comming soon.
 
-## Spatial-hierarchical Graph Neural Network with Dynamic Structure Learning for Histological Image Classification
+## Interpretable Graph Learning on Preoperative Biopsy for Prediction of Pathological Complete Response to Neoadjuvant Therapy in Breast Cancer
 
-<div align=left><img width="70%" src="./Pics/Overall.png"/></div>
+<div align=left><img width="70%" src="Overall.png"/></div>
 
 ## Installation
 Clone the repo:
