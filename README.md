@@ -37,7 +37,7 @@ The trained model will be saved in the folder ***SavedModels***.
 
 ## Saved models
 We provide a saved model, which performing as:
-| Dataset | Macro AUC |
+| Dataset | ROC-AUC |
 | ----- |:--------:|
 | Internel validation set | 0.845 |
 | Externel validation set | 0.815 |
