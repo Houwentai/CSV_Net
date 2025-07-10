@@ -67,4 +67,4 @@ if __name__ == "__main__":
         train_auc = roc_auc_score(train_label, train_prob)
         train_loss = running_loss / len(train_index)
         train_loss_his.append(train_loss)
-    torch.save(model.state_dict(), './pp_model.pth')
+    torch.save(model.state_dict(), './saved_model/checkpoint.pth')
