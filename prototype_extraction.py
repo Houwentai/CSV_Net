@@ -76,7 +76,7 @@ if __name__ == "__main__":
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # 使用示例
+    # 加载患者列表
     csv_file_path = '../patient_list.csv'
     patient_list = read_first_column_as_list(csv_file_path)
     patient_list = first_column_list[1:]
