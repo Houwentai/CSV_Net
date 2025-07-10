@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## Data Preprocess
 ***gendata.ipynb*** shows how to transform a WSI into the prototype graph and phenotype graph. After the data processing is completed, put all hierarchical graphs into a folder. The form is as follows:
 ```bash
-PYG_Data
+Graph_Data
    └── Dataset
           ├── patient_1.pkl
           ├── patient_2.pkl
@@ -46,7 +46,7 @@ We provide our trained CSV_Net model, which performing as:
 Using the following command-line for model inference and result statistics:
 ```bash
 cd inference
-python inference_<experiments>.py
+python inference.py
 ```
 
 ## Citation
