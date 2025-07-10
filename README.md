@@ -49,11 +49,11 @@ pip install -r requirements.txt
   ```
 
 ## Saved model
-Our trained CSV_Net model is avaliable at [saved_model](https://github.com/Houwentai/CSV_Net/tree/main/saved_model), which performing as:
-| Dataset | ROC-AUC |
-| ----- |:--------:|
-| Internel validation set | 0.845 |
-| Externel validation set | 0.815 |
+- Our trained CSV_Net model is avaliable at [saved_model](https://github.com/Houwentai/CSV_Net/tree/main/saved_model), which performing as:
+  | Dataset | ROC-AUC |
+  | ----- |:--------:|
+  | Internel validation set | 0.845 |
+  | Externel validation set | 0.815 |
 
 ## Citation
 - If you found our work useful in your research, please consider citing our work at:
