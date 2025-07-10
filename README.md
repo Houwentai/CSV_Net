@@ -36,7 +36,7 @@ python train.py
 The trained model will be saved in the folder ***SavedModels***. 
 
 ## Saved models
-We provide a saved model, which performing as:
+We provide our trained CSV_Net model, which performing as:
 | Dataset | ROC-AUC |
 | ----- |:--------:|
 | Internel validation set | 0.845 |
