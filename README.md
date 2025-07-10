@@ -30,14 +30,14 @@ pip install -r requirements.txt
   - Please refer to **PP_graph_generation.ipynb**
 
 - **Training of CSV-NET**
-  Using the following command-line for model training:
+  - Using the following command-line for model training:
   ```bash
   cd train
   python train.py
   ```
 
 - **Validation of CSV-NET**
-  Using the following command-line for model inference and result statistics:
+  - Using the following command-line for model inference and result statistics:
   ```bash
   cd inference
   python inference.py
